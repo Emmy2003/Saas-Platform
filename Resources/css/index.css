@@ -75,3 +75,76 @@ nav {
     border-bottom: 2px solid #6366f1;
     padding-bottom: 5px;
 }
+
+
+/* HERO SECTION STYLES  */
+.hero {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 100px 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+/* HERO HEADING */
+.hero h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #1a1a1a;
+    text-align: center;
+}
+
+/* HERO PARAGRAPH */
+.hero p {
+    font-size: 20px;
+    color: #636363;
+    max-width: 600px;
+}
+
+/* HERO BUTTON */
+.hero-btn{
+    color: #ffffff;
+    padding: 14px 32px;
+    gap: 20px;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* PRIMARY BUTTON */
+.btn-getStarted {
+    background-color: #6366f1;
+    border: none;
+    padding: 14px 32px;
+    color: #ffffff;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn-learnMore {
+    background-color: transparent;
+    border: 2px solid #e5e7e5;
+    padding: 12px 30px;
+    color: #1a1a1a;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* PRIMARY BUTTON HOVER EFFECT */
+.btn-getStarted:hover {
+    background-color: #4f46e5;
+    transform: translateY(-2px);
+}
+
+.btn-learnMore:hover {
+    transform: translateY(-2px);
+}
