@@ -60,7 +60,6 @@ nav {
 .nav-links li a {
     color: #636363;
     font-weight: 500;
-    color: #1a1a1a;
     transition: color 0.3s ease;
 }
 
@@ -102,6 +101,7 @@ nav {
     font-size: 20px;
     color: #636363;
     max-width: 600px;
+    text-align: center; 
 }
 
 /* HERO BUTTON */
